@@ -17,6 +17,24 @@ $ zcash-cli getnewaddress
 # https://zec.suprnova.cc -> Login -> Setting -> ACCOUNT DETAILS -> Payment Address
 ```
 
+### xorg
+
+```bash
+$ startx 
+$ cat /var/log/Xorg.0.log
+(EE) modeset failed to ...
+```
+
+> /etc/X11/xorg.conf.d/20-intel.conf 
+
+```
+Section "Device"
+   Identifier  "Intel Graphics"
+   Driver      "intel"
+   Option      "TearFree"    "true"
+EndSection
+```
+
 ### mac
 
 https://developer.nvidia.com/cuda-downloads
