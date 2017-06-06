@@ -1,3 +1,7 @@
+```bash
+$ sudo docker pull syui/docker-nheqminer
+```
+
 https://zec.suprnova.cc
 
 - My Account -> My worker
